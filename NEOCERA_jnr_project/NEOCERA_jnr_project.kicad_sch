@@ -44,6 +44,44 @@
 		)
 	)
 	(sheet
+		(at 193.04 39.37)
+		(size 49.53 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31b6b5cc-d086-44ba-8cec-c6130e1adfec")
+		(property "Sheetname" "microcontroller"
+			(at 193.04 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro.kicad_sch"
+			(at 193.04 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 111.76 31.75)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)

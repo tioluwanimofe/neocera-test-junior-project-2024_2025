@@ -1,0 +1,241 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a8746ab6-0163-416c-99f9-0036ded73fc6")
+	(paper "A")
+	(lib_symbols)
+	(sheet
+		(at 57.15 29.21)
+		(size 16.51 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15a42c98-7d13-43cc-bc93-127d5e629e85")
+		(property "Sheetname" "1224voltsdrivingoutputMOSFET"
+			(at 57.15 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1224voltsdrivingoutputMOSFET.kicad_sch"
+			(at 57.15 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 31.75)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7496db41-63f6-4a75-8598-ef441d310206")
+		(property "Sheetname" "5v tolerant digital input with pullup"
+			(at 111.76 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v tolerant digital input with pullup.kicad_sch"
+			(at 111.76 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 58.42)
+		(size 20.32 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88df64fe-9eda-4a8b-8895-ba5d4a8e12c9")
+		(property "Sheetname" "Opto inputs"
+			(at 87.63 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 87.63 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 57.15)
+		(size 34.29 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b5b25d8-baef-4cac-83b0-db0f684b8008")
+		(property "Sheetname" "FET to ground - MOSFET switch to ground"
+			(at 30.48 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch to ground.kicad_sch"
+			(at 30.48 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 58.42)
+		(size 48.26 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eccef941-b3a2-489b-8b20-a97d17a976fa")
+		(property "Sheetname" "Power"
+			(at 125.73 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 125.73 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 29.21)
+		(size 13.97 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4efddb7-db53-433c-ab56-6972b865441e")
+		(property "Sheetname" "RS232"
+			(at 25.4 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS232.kicad_sch"
+			(at 25.4 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

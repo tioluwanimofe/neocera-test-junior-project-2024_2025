@@ -1642,12 +1642,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 106.68 63.5 0)
+		(property "Value" "HV"
+			(at 109.22 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2408,12 +2409,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 57.15 63.5 0)
+		(property "Value" "HV"
+			(at 59.69 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

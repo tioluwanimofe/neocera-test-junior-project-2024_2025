@@ -2490,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 57.15) (xy 115.57 48.26)
+			(xy 115.57 57.15) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2550,16 +2550,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 129.54 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ee97c0-13cd-420c-aef4-e985a8693aca")
-	)
-	(wire
-		(pts
 			(xy 193.04 87.63) (xy 187.96 87.63)
 		)
 		(stroke
@@ -2567,6 +2557,16 @@
 			(type default)
 		)
 		(uuid "3436b575-6126-4fae-9fc2-6dc092599659")
+	)
+	(wire
+		(pts
+			(xy 132.08 132.08) (xy 132.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35edbe69-85b0-46ff-8f62-d56b649a179f")
 	)
 	(wire
 		(pts
@@ -2647,6 +2647,26 @@
 			(type default)
 		)
 		(uuid "5a870819-df31-4ab7-b414-e7ab45053055")
+	)
+	(wire
+		(pts
+			(xy 143.51 143.51) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f4dd28-9b08-460f-a784-72eccb7d0862")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 132.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac94b99-ce17-42dc-9e51-7fa2f4dc514c")
 	)
 	(wire
 		(pts
@@ -2750,6 +2770,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 133.35) (xy 137.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d95534-4127-4628-ad22-d45759a595f5")
+	)
+	(wire
+		(pts
 			(xy 203.2 80.01) (xy 209.55 80.01)
 		)
 		(stroke
@@ -2850,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 132.08) (xy 132.08 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0446cfa-f04a-470b-9bef-cbeb5aa788ac")
-	)
-	(wire
-		(pts
 			(xy 71.12 144.78) (xy 76.2 144.78)
 		)
 		(stroke
@@ -2870,13 +2890,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 48.26) (xy 115.57 48.26)
+			(xy 137.16 132.08) (xy 134.62 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db44e8f2-f923-4be8-8d2a-ba3b43fd497c")
+		(uuid "d8dc153b-ad69-498e-9a5a-4496a7b83a9e")
 	)
 	(wire
 		(pts
@@ -2890,23 +2910,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 129.54 49.53)
+			(xy 137.16 133.35) (xy 137.16 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfc31641-f653-4aa3-9a6e-6cde34a3cd53")
-	)
-	(wire
-		(pts
-			(xy 134.62 58.42) (xy 134.62 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c8663f-414a-4821-a441-226a5761b21e")
+		(uuid "e7f7915c-d486-44b3-aed5-a29a2b3af7e4")
 	)
 	(wire
 		(pts
@@ -3251,6 +3261,72 @@
 			(project ""
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 134.62 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f9ebf5c-1596-4676-80e0-2f59d5ace6e1")
+		(property "Reference" "#PWR063"
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee041bc1-b5b8-4c42-83f8-023b8168a42b")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4078,17 +4154,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 49.53 0)
+		(lib_id "power:+3.3V")
+		(at 123.19 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "510c37d9-dbea-492b-bcd7-3fd306b5198c")
-		(property "Reference" "#PWR040"
-			(at 129.54 55.88 0)
+		(uuid "4f3ab173-bde3-4296-b286-ccfbc064056b")
+		(property "Reference" "#PWR064"
+			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,8 +4172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 129.54 54.61 0)
+		(property "Value" "+3.3V"
+			(at 128.27 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 49.53 0)
+			(at 123.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 49.53 0)
+			(at 123.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,8 +4198,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,12 +4208,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6df6d5b4-aaa6-48e6-a68e-cfda2bd12701")
+			(uuid "bbf4d765-b8ed-42fe-b679-29ee4583a858")
 		)
 		(instances
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
-					(reference "#PWR040")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4345,15 +4421,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 137.16 0)
+		(at 143.51 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "639f56f6-3188-48bc-9a35-d40e51bfb567")
-		(property "Reference" "#PWR042"
-			(at 132.08 143.51 0)
+		(fields_autoplaced yes)
+		(uuid "63b7081d-9afc-484a-b6c3-61f5bdf2b0a6")
+		(property "Reference" "#PWR061"
+			(at 143.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,16 +4439,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 143.51 0)
+			(at 143.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 137.16 0)
+			(at 143.51 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 137.16 0)
+			(at 143.51 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 137.16 0)
+			(at 143.51 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,12 +4474,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2457fd8c-d6eb-4586-8fc0-31302395badd")
+			(uuid "b2035069-f043-4712-b5a7-e57647a54a7b")
 		)
 		(instances
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
-					(reference "#PWR042")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4549,6 +4625,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 134.62 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "888bb32c-6929-4e34-9449-84d6ab8ecc16")
+		(property "Reference" "C35"
+			(at 130.81 55.8801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 130.81 53.3401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 133.6548 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed16e1a9-1997-4aad-a1ec-877b0dbf714d")
+		)
+		(pin "2"
+			(uuid "3d3b6904-e181-4e6a-b863-9d67cab679cf")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 245.11 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4611,6 +4756,144 @@
 			(project ""
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af1708df-65bc-42c1-9ea1-9643eb6a2ca0")
+		(property "Reference" "C34"
+			(at 130.81 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 130.81 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 127.9652 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde467c6-3ccf-4ea5-8224-e58392207315")
+		)
+		(pin "2"
+			(uuid "3a6e0bce-35cc-4fd9-a979-5bed35afa0ec")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b09049cc-eac2-462c-8f9c-6c3658a37edb")
+		(property "Reference" "C33"
+			(at 147.32 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 147.32 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 144.4752 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2b65871-ed96-4329-8637-fe81bd64328e")
+		)
+		(pin "2"
+			(uuid "4da3e77a-8ae6-4204-b74d-f3180cfb4402")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4743,6 +5026,75 @@
 			(project ""
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c868bfdb-dd4a-4a7f-820c-bffe0490b005")
+		(property "Reference" "C36"
+			(at 118.1099 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 120.6499 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 123.19 42.2148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b463626-2d5f-47a7-acb1-12b4a61ea8c8")
+		)
+		(pin "2"
+			(uuid "f3d731f7-cc62-4427-abd2-dee7452c1661")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4949,6 +5301,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 127 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df8a47e6-e06c-423f-ab31-6431749f96c0")
+		(property "Reference" "#PWR062"
+			(at 127 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a954844-23ff-4e99-b804-10a62c191a74")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 88.9 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5008,72 +5426,6 @@
 			(project ""
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 121.92 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed6002ca-aa24-4df7-b1ae-6d6774e34d0c")
-		(property "Reference" "#PWR043"
-			(at 118.11 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 127 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16bfd77e-0651-4993-96ba-ae4ddf791e2f")
-		)
-		(instances
-			(project "NEOCERA_jnr_project"
-				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)

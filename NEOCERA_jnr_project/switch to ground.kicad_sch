@@ -540,6 +540,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 95.25) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f912a57-357e-4e8f-8a67-ace96c7c3ab3")
+	)
+	(wire
+		(pts
+			(xy 82.55 100.33) (xy 82.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3301c05b-0590-4e96-bd71-120908d8a6f4")
+	)
+	(wire
+		(pts
 			(xy 85.09 45.72) (xy 85.09 52.07)
 		)
 		(stroke
@@ -557,6 +577,16 @@
 			(type default)
 		)
 		(uuid "38fd9b55-7b71-4a9f-a4fa-a745233ad51b")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 132.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40308d0d-948a-48b7-9dab-54162ed98727")
 	)
 	(wire
 		(pts
@@ -587,6 +617,16 @@
 			(type default)
 		)
 		(uuid "5f41cc3b-795c-477b-ac20-ec069fcd69a2")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f200b9-23fd-4cbe-a359-1a46a73750f4")
 	)
 	(wire
 		(pts
@@ -640,6 +680,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 107.95) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59c51ac-5b6a-4a6d-9977-d5ec38128623")
+	)
+	(wire
+		(pts
+			(xy 90.17 105.41) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac3fcc6-c299-4780-b111-fe623c858d02")
+	)
+	(wire
+		(pts
 			(xy 77.47 40.64) (xy 77.47 46.99)
 		)
 		(stroke
@@ -647,6 +707,16 @@
 			(type default)
 		)
 		(uuid "fb6b66a1-e452-4c98-9c07-6d3707223dd5")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed501e0-c52f-4cfc-ad05-66a40275751d")
 	)
 	(global_label "nfet_in1"
 		(shape input)
@@ -780,6 +850,50 @@
 			)
 		)
 	)
+	(global_label "nfet_out6"
+		(shape input)
+		(at 139.7 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d764f0bb-dfba-4c73-9e5a-df0cc2fe780a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.575 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nfet_out5"
+		(shape input)
+		(at 100.33 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f53571ad-4049-47b4-926f-e4f1c58b692a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.205 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nfet_out3"
 		(shape input)
 		(at 134.62 36.83 0)
@@ -802,6 +916,28 @@
 			)
 		)
 	)
+	(global_label "nfet_in6"
+		(shape input)
+		(at 115.57 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9263d40-8037-434a-86d6-8e61ca710390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.9649 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nfet_out2"
 		(shape input)
 		(at 95.25 60.96 0)
@@ -820,6 +956,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nfet_in5"
+		(shape input)
+		(at 74.93 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff79678e-1781-4a5a-be34-a6988b3df2ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.3249 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -951,6 +1109,81 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 87.63 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2137993d-9748-4822-9d5c-823ae491e5f3")
+		(property "Reference" "Q12"
+			(at 92.456 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 91.948 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 92.71 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 92.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d4ae66e8-ec5d-4fad-b102-558a20467185")
+		)
+		(pin "1"
+			(uuid "850b8642-1c85-4aa9-bb44-a0c6314ee26a")
+		)
+		(pin "2"
+			(uuid "a1d7a5a8-d547-48b5-be68-235988134718")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -1107,6 +1340,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 129.54 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3559fadd-7b6d-413f-8693-e63cb42667e9")
+		(property "Reference" "Q14"
+			(at 134.366 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 133.858 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 134.62 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cf4fbacf-ff5f-417d-be7a-6013c1bc545d")
+		)
+		(pin "1"
+			(uuid "a918b8f3-d0ff-419a-abac-0ae1c41866c5")
+		)
+		(pin "2"
+			(uuid "d21de464-25f4-4a1c-9e06-0cd7fad01b40")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 78.74 0)
 		(unit 1)
@@ -1167,6 +1475,72 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60c7284e-24cb-440c-a614-5ef6bbf8130d")
+		(property "Reference" "#PWR069"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3409de82-db81-4e6f-9d8a-001426d69f1d")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1242,6 +1616,72 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
 					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb866ee-4942-448e-970a-c8170635363b")
+		(property "Reference" "#PWR070"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "970eacff-d645-45e1-a0b0-d5920655e73d")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1442,6 +1882,73 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d899129e-81de-40c9-923c-431badc2b726")
+		(property "Reference" "R28"
+			(at 120.65 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 120.65 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 120.65 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade1864e-743a-4d98-90de-9a930aa5f2cb")
+		)
+		(pin "2"
+			(uuid "299ad943-cc2d-4468-9250-ea6ae0443f4f")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -1651,6 +2158,73 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8f5adf1-7b0e-46c2-8e98-f1b7af4f7fdc")
+		(property "Reference" "R27"
+			(at 78.74 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 78.74 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 78.74 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e275501-6125-4038-a421-a07e18557f9f")
+		)
+		(pin "2"
+			(uuid "7a11abf5-ee35-4869-94d9-3a3ce49409a2")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/9b5b25d8-baef-4cac-83b0-db0f684b8008"
+					(reference "R27")
 					(unit 1)
 				)
 			)

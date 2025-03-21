@@ -1490,7 +1490,7 @@
 		)
 		(uuid "e44065af-14a9-4c3d-bf05-edcb4f914fb9")
 	)
-	(global_label "hvout2"
+	(global_label "hvout2_signal"
 		(shape output)
 		(at 111.76 97.79 0)
 		(fields_autoplaced yes)
@@ -1512,7 +1512,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol3"
+	(global_label "hvcontrol3_controller"
 		(shape input)
 		(at 129.54 111.76 180)
 		(fields_autoplaced yes)
@@ -1534,7 +1534,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol4"
+	(global_label "hvcontrol4_controller"
 		(shape input)
 		(at 31.75 176.53 180)
 		(fields_autoplaced yes)
@@ -1556,7 +1556,7 @@
 			)
 		)
 	)
-	(global_label "hvout4"
+	(global_label "hvout4_signal"
 		(shape output)
 		(at 59.69 162.56 0)
 		(fields_autoplaced yes)
@@ -1578,7 +1578,7 @@
 			)
 		)
 	)
-	(global_label "hvout3"
+	(global_label "hvout3_signal"
 		(shape output)
 		(at 157.48 97.79 0)
 		(fields_autoplaced yes)
@@ -1600,7 +1600,7 @@
 			)
 		)
 	)
-	(global_label "hvout1"
+	(global_label "hvout1_signal"
 		(shape output)
 		(at 62.23 97.79 0)
 		(fields_autoplaced yes)
@@ -1622,7 +1622,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol2"
+	(global_label "hvcontrol2_controller"
 		(shape input)
 		(at 83.82 111.76 180)
 		(fields_autoplaced yes)
@@ -1644,7 +1644,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol1"
+	(global_label "hvcontrol1_controller"
 		(shape input)
 		(at 34.29 111.76 180)
 		(fields_autoplaced yes)

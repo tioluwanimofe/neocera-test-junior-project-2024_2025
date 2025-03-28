@@ -2123,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 186.69) (xy 144.78 193.04)
+			(xy 144.78 186.69) (xy 144.78 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2141,141 +2141,9 @@
 		)
 		(uuid "eb73114a-23e1-433a-a4f2-1d7d5f59a59d")
 	)
-	(global_label "Opto common3"
+	(global_label "hvout3_mboard"
 		(shape input)
-		(at 64.77 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08ce5179-33ec-4c95-8c4f-054f19c55de3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.3313 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "nfet_in5"
-		(shape input)
-		(at 137.16 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10fcbdba-666a-4d15-8022-a13e7da01f2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5549 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RS232_in3_Signal"
-		(shape input)
-		(at 137.16 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15fefe1f-e8bb-49c4-a610-fa74260dfd6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.2418 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RS232_in1_Signal"
-		(shape input)
-		(at 137.16 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d3a1cf8-00c9-4ef5-bff3-2d59957cc590")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.2418 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "opto_output4"
-		(shape input)
-		(at 48.26 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21d610db-27cb-4149-918d-57086d9af0cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6424 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO5"
-		(shape input)
-		(at 137.16 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "221811c8-f6e1-4111-a580-43082057b813")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "hvout3_signal"
-		(shape input)
-		(at 63.5 177.8 180)
+		(at 137.16 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2285,61 +2153,17 @@
 		)
 		(uuid "235d0c7e-652d-4c6a-bd95-8d6515897485")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.4523 177.8 0)
+			(at 121.1123 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "opto_output2"
-		(shape input)
-		(at 48.26 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26d92c75-a38d-4899-ac82-8b45196030fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6424 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "nfet_out6"
-		(shape input)
-		(at 60.96 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a8b845f-7aed-486e-80de-52eabc4caa4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.085 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "nfet_in6"
 		(shape input)
 		(at 137.16 140.97 180)
 		(fields_autoplaced yes)
@@ -2349,9 +2173,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2d1ee401-1695-4c75-b50f-86337c2b12ea")
+		(uuid "2a8b845f-7aed-486e-80de-52eabc4caa4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5549 140.97 0)
+			(at 125.285 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,9 +2207,9 @@
 			)
 		)
 	)
-	(global_label "DO6"
+	(global_label "opto_output3"
 		(shape input)
-		(at 137.16 120.65 180)
+		(at 137.16 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2393,9 +2217,9 @@
 			)
 			(justify right)
 		)
-		(uuid "42b276b0-e4e9-47b7-a702-6529e721e244")
+		(uuid "42218b0c-bc48-4457-b276-6a671ec6d880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 120.65 0)
+			(at 121.7776 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,31 +2229,9 @@
 			)
 		)
 	)
-	(global_label "Opto anode_4"
+	(global_label "D_IN1_out"
 		(shape input)
-		(at 137.16 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42dc9bc2-9106-4750-90ab-107917e82342")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.9913 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO1_out"
-		(shape input)
-		(at 60.96 113.03 180)
+		(at 137.16 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2439,7 +2241,7 @@
 		)
 		(uuid "43d99567-c6ca-41b0-a489-a974910794d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1735 113.03 0)
+			(at 126.3735 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2253,7 @@
 	)
 	(global_label "TX1_OUT_signal"
 		(shape input)
-		(at 63.5 107.95 180)
+		(at 137.16 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2461,7 +2263,7 @@
 		)
 		(uuid "47791d94-21e8-45b6-91e5-51cd9873135f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.8193 107.95 0)
+			(at 119.4793 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,31 +2273,9 @@
 			)
 		)
 	)
-	(global_label "Opto common4"
+	(global_label "hvout4_mboard"
 		(shape input)
-		(at 64.77 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ca85619-9fd1-4ade-b5ed-848ed8e6ea54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.3313 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "hvout4_signal"
-		(shape input)
-		(at 63.5 180.34 180)
+		(at 137.16 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2505,29 +2285,7 @@
 		)
 		(uuid "4db34caa-8bc5-4104-9128-4216dce88a10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.4523 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Opto common1"
-		(shape input)
-		(at 64.77 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f31864d-a290-46f4-beba-a977258d12e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.3313 142.24 0)
+			(at 121.1123 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2297,7 @@
 	)
 	(global_label "nfet_out1"
 		(shape input)
-		(at 60.96 154.94 180)
+		(at 137.16 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2549,29 +2307,7 @@
 		)
 		(uuid "53abd776-d85b-40b6-a69f-0bfe06847965")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.085 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Opto anode_1"
-		(shape input)
-		(at 137.16 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54bebbd0-3c62-41e3-8d90-1643e0f7abc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.9913 143.51 0)
+			(at 125.285 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2319,7 @@
 	)
 	(global_label "nfet_out4"
 		(shape input)
-		(at 60.96 162.56 180)
+		(at 137.16 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2593,7 +2329,7 @@
 		)
 		(uuid "57b35b76-f9e6-41a0-ad54-ebdf6be4870b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.085 162.56 0)
+			(at 125.285 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2341,7 @@
 	)
 	(global_label "nfet_out3"
 		(shape input)
-		(at 60.96 160.02 180)
+		(at 137.16 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2615,7 +2351,7 @@
 		)
 		(uuid "5a34a342-08df-4e14-89db-80d985102a55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.085 160.02 0)
+			(at 125.285 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,75 +2361,9 @@
 			)
 		)
 	)
-	(global_label "nfet_in1"
+	(global_label "D_IN4_out"
 		(shape input)
-		(at 137.16 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "70f589b4-5139-4aa0-aeee-e48ed30e08fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5549 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Opto common2"
-		(shape input)
-		(at 64.77 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75969538-8a56-407c-9c4f-cca321b1744f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.3313 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RS232_in2_Signal"
-		(shape input)
-		(at 137.16 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "779a5041-d1ac-4fb2-8742-2423a495f4fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.2418 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO4_out"
-		(shape input)
-		(at 60.96 120.65 180)
+		(at 137.16 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2703,7 +2373,7 @@
 		)
 		(uuid "7829b2b3-9441-4cd9-a4ce-27ee0d48f1d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1735 120.65 0)
+			(at 126.3735 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,75 +2383,9 @@
 			)
 		)
 	)
-	(global_label "DO2"
+	(global_label "D_IN5_out"
 		(shape input)
-		(at 137.16 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79551592-ce4e-4b97-839a-91f54a62c8ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "opto_output3"
-		(shape input)
-		(at 48.26 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a95e226-d791-4076-806d-8a1a01a0e4ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6424 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "hvcontrol1_in"
-		(shape input)
-		(at 137.16 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b56bf6d-d515-4298-a124-b49f1e93cee6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.4146 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO5_out"
-		(shape input)
-		(at 60.96 123.19 180)
+		(at 137.16 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2791,29 +2395,7 @@
 		)
 		(uuid "82439cd4-f3be-41ad-993b-bf38dce779f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1735 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RS232_in4_Signal"
-		(shape input)
-		(at 137.16 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "871c20b5-6893-493d-9f17-c047dc9b7ce6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.2418 97.79 0)
+			(at 126.3735 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2407,7 @@
 	)
 	(global_label "nfet_out2"
 		(shape input)
-		(at 60.96 157.48 180)
+		(at 137.16 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2835,29 +2417,7 @@
 		)
 		(uuid "8c98bb97-324b-4faa-8ec0-493ab544f0ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.085 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO4"
-		(shape input)
-		(at 137.16 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93f59d8e-f4b5-4d64-98e5-6bc2e0006312")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 115.57 0)
+			(at 125.285 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +2429,7 @@
 	)
 	(global_label "RX1_OUT_signal"
 		(shape input)
-		(at 63.5 102.87 180)
+		(at 137.16 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2879,29 +2439,7 @@
 		)
 		(uuid "9a41b6bc-c1a5-4dc2-b969-7b57ceb655a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.5169 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "hvcontrol3_in"
-		(shape input)
-		(at 137.16 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f6b6b55-b773-4789-adde-863a4168e38a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.4146 171.45 0)
+			(at 119.1769 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2451,7 @@
 	)
 	(global_label "nfet_out5"
 		(shape input)
-		(at 60.96 165.1 180)
+		(at 137.16 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2923,7 +2461,7 @@
 		)
 		(uuid "a30260ef-8dd6-4c70-9586-6852f8fd0456")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.085 165.1 0)
+			(at 125.285 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,9 +2471,9 @@
 			)
 		)
 	)
-	(global_label "DO6_out"
+	(global_label "D_IN6_out"
 		(shape input)
-		(at 60.96 125.73 180)
+		(at 137.16 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2945,51 +2483,7 @@
 		)
 		(uuid "a50c7600-da6e-4a2f-a713-ba09c319d209")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1735 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Opto anode_3"
-		(shape input)
-		(at 137.16 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a548f03f-b1d2-4fb4-bb6c-fca0a189a67e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.9913 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Opto anode_2"
-		(shape input)
-		(at 137.16 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5a7d4d0-1bdf-4bbc-a9f9-569b5ee1d42c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.9913 146.05 0)
+			(at 126.3735 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +2495,7 @@
 	)
 	(global_label "RX2_OUT_signal"
 		(shape input)
-		(at 63.5 100.33 180)
+		(at 137.16 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3011,7 +2505,7 @@
 		)
 		(uuid "a5ae1ac6-fcc4-4765-882a-413900cf9922")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.5169 100.33 0)
+			(at 119.1769 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +2517,7 @@
 	)
 	(global_label "TX2_OUT_signal"
 		(shape input)
-		(at 63.5 105.41 180)
+		(at 137.16 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3033,7 +2527,7 @@
 		)
 		(uuid "a6a5a038-e3c4-49f4-83f3-396426acd53d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.8193 105.41 0)
+			(at 119.4793 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,139 +2537,7 @@
 			)
 		)
 	)
-	(global_label "nfet_in2"
-		(shape input)
-		(at 137.16 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad50551f-7122-431c-92fb-f2ac51b712ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5549 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "nfet_in3"
-		(shape input)
-		(at 137.16 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0ac3c9d-00a9-4743-a38e-80c30d2cbf76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5549 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "nfet_in4"
-		(shape input)
-		(at 137.16 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4f6317d-fa3f-445b-8931-afd101ae6562")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5549 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO1"
-		(shape input)
-		(at 137.16 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9278969-95fc-413c-8778-1e25cbb1491b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO3_out"
-		(shape input)
-		(at 60.96 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c17d37eb-e7b9-4d93-81b7-78a37ce91743")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1735 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "hvcontrol2_in"
-		(shape input)
-		(at 137.16 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c52f0c68-4c2c-47b3-9cad-35812beffce0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.4146 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO3"
+	(global_label "D_IN3_out"
 		(shape input)
 		(at 137.16 113.03 180)
 		(fields_autoplaced yes)
@@ -3185,9 +2547,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c7d9f3fb-9864-422c-8132-cd1a11e3a2a4")
+		(uuid "c17d37eb-e7b9-4d93-81b7-78a37ce91743")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 113.03 0)
+			(at 126.3735 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,31 +2559,9 @@
 			)
 		)
 	)
-	(global_label "opto_output1"
+	(global_label "opto_output2"
 		(shape input)
-		(at 48.26 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4bb0126-ce38-47d9-b2a5-89eeb5615369")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6424 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "hvcontrol4_in"
-		(shape input)
-		(at 137.16 173.99 180)
+		(at 137.16 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3229,9 +2569,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d4de370d-64a2-4916-b578-411036e6eb0c")
+		(uuid "d1e2d01f-fc11-40d6-a1ee-b85b93b63703")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.4146 173.99 0)
+			(at 121.7776 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,9 +2581,9 @@
 			)
 		)
 	)
-	(global_label "DO2_out"
+	(global_label "D_IN2_out"
 		(shape input)
-		(at 60.96 115.57 180)
+		(at 137.16 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3253,7 +2593,7 @@
 		)
 		(uuid "dc4ede9f-4cb8-46d7-a665-7bf909aa82f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1735 115.57 0)
+			(at 126.3735 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,9 +2603,31 @@
 			)
 		)
 	)
-	(global_label "hvout1_signal"
+	(global_label "opto_output4"
 		(shape input)
-		(at 63.5 172.72 180)
+		(at 137.16 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2a8e9ea-b843-477d-97eb-f81e7d6f5494")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.7776 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "hvout1_mboard"
+		(shape input)
+		(at 137.16 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3275,7 +2637,7 @@
 		)
 		(uuid "e931d826-7d90-4cbe-89fe-44a16f390b4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.4523 172.72 0)
+			(at 121.1123 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,9 +2669,9 @@
 			)
 		)
 	)
-	(global_label "hvout2_signal"
+	(global_label "hvout2_mboard"
 		(shape input)
-		(at 63.5 175.26 180)
+		(at 137.16 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3319,7 +2681,29 @@
 		)
 		(uuid "f9c5fb9d-c247-430d-8ba5-fd2641319616")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.4523 175.26 0)
+			(at 121.1123 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "opto_output1"
+		(shape input)
+		(at 137.16 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fecd44b3-84cc-466c-92b5-379584141083")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.7776 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,79 +2848,13 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71ab237f-f068-48c0-812e-8befd0bb857d")
-		(property "Reference" "#PWR075"
-			(at 144.78 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33e33bdd-17a4-415a-a1cb-15b4ee18cce4")
-		)
-		(instances
-			(project "NEOCERA_jnr_project"
-				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 130.81 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "80ffc731-6ab9-4759-b402-11db30ff8e13")
+		(uuid "59ceff38-69c8-4992-8285-81232283e6a6")
 		(property "Reference" "#PWR088"
 			(at 124.46 95.25 0)
 			(effects
@@ -3582,12 +2900,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "07c478b6-290c-4bd4-bfd6-44b40140a353")
+			(uuid "6f158665-3cd5-49d2-917c-01fc03219cf2")
 		)
 		(instances
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71ab237f-f068-48c0-812e-8befd0bb857d")
+		(property "Reference" "#PWR075"
+			(at 144.78 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e33bdd-17a4-415a-a1cb-15b4ee18cce4")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3905,6 +3289,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 137.16 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c515bac2-d3a3-423d-88ef-e5257d660937")
+		(property "Reference" "#PWR0108"
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 133.35 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 137.16 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45ac8283-99f7-4064-9024-4d48b1f82248")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 135.89 90.17 0)
 		(unit 1)
@@ -4030,6 +3481,73 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 137.16 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7636831-73fe-4480-b0ff-72877d896da1")
+		(property "Reference" "#PWR0107"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 133.35 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 137.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1d4e42c-0057-4e4d-9047-c9f49928360d")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

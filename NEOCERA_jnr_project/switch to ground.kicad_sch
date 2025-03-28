@@ -718,7 +718,7 @@
 		)
 		(uuid "fed501e0-c52f-4cfc-ad05-66a40275751d")
 	)
-	(global_label "nfet_in1"
+	(global_label "NFET_micro1"
 		(shape input)
 		(at 69.85 46.99 180)
 		(fields_autoplaced yes)
@@ -762,7 +762,7 @@
 			)
 		)
 	)
-	(global_label "nfet_in2"
+	(global_label "NFET_micro2"
 		(shape input)
 		(at 69.85 72.39 180)
 		(fields_autoplaced yes)
@@ -784,7 +784,7 @@
 			)
 		)
 	)
-	(global_label "nfet_in4"
+	(global_label "NFET_micro4"
 		(shape input)
 		(at 113.03 73.66 180)
 		(fields_autoplaced yes)
@@ -828,7 +828,7 @@
 			)
 		)
 	)
-	(global_label "nfet_in3"
+	(global_label "NFET_micro3"
 		(shape input)
 		(at 110.49 48.26 180)
 		(fields_autoplaced yes)
@@ -916,7 +916,7 @@
 			)
 		)
 	)
-	(global_label "nfet_in6"
+	(global_label "NFET_micro6"
 		(shape input)
 		(at 115.57 107.95 180)
 		(fields_autoplaced yes)
@@ -960,7 +960,7 @@
 			)
 		)
 	)
-	(global_label "nfet_in5"
+	(global_label "NFET_micro5"
 		(shape input)
 		(at 74.93 106.68 180)
 		(fields_autoplaced yes)

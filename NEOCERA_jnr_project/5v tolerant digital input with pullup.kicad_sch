@@ -1224,7 +1224,7 @@
 		)
 		(uuid "fa8f88b0-bb66-4836-8970-0653c52a1f5b")
 	)
-	(global_label "DO6"
+	(global_label "D_IN6"
 		(shape input)
 		(at 219.71 55.88 180)
 		(fields_autoplaced yes)
@@ -1246,7 +1246,7 @@
 			)
 		)
 	)
-	(global_label "DO4"
+	(global_label "D_IN4"
 		(shape input)
 		(at 219.71 50.8 180)
 		(fields_autoplaced yes)
@@ -1268,7 +1268,7 @@
 			)
 		)
 	)
-	(global_label "DO2_out"
+	(global_label "D_IN2_out"
 		(shape output)
 		(at 158.75 140.97 0)
 		(fields_autoplaced yes)
@@ -1290,7 +1290,7 @@
 			)
 		)
 	)
-	(global_label "DO5"
+	(global_label "D_IN5"
 		(shape input)
 		(at 29.21 86.36 180)
 		(fields_autoplaced yes)
@@ -1312,7 +1312,7 @@
 			)
 		)
 	)
-	(global_label "DO5_out"
+	(global_label "D_IN5_out"
 		(shape output)
 		(at 252.73 53.34 0)
 		(fields_autoplaced yes)
@@ -1334,7 +1334,7 @@
 			)
 		)
 	)
-	(global_label "DO1_out"
+	(global_label "D_IN1_out"
 		(shape output)
 		(at 252.73 43.18 0)
 		(fields_autoplaced yes)
@@ -1356,7 +1356,7 @@
 			)
 		)
 	)
-	(global_label "DO3"
+	(global_label "D_IN3"
 		(shape input)
 		(at 219.71 48.26 180)
 		(fields_autoplaced yes)
@@ -1378,7 +1378,7 @@
 			)
 		)
 	)
-	(global_label "DO5"
+	(global_label "D_IN5"
 		(shape input)
 		(at 219.71 53.34 180)
 		(fields_autoplaced yes)
@@ -1400,7 +1400,7 @@
 			)
 		)
 	)
-	(global_label "DO2"
+	(global_label "D_IN2"
 		(shape input)
 		(at 123.19 140.97 180)
 		(fields_autoplaced yes)
@@ -1422,7 +1422,7 @@
 			)
 		)
 	)
-	(global_label "DO6"
+	(global_label "D_IN6"
 		(shape input)
 		(at 26.67 135.89 180)
 		(fields_autoplaced yes)
@@ -1444,7 +1444,7 @@
 			)
 		)
 	)
-	(global_label "DO1_out"
+	(global_label "D_IN1_out"
 		(shape output)
 		(at 156.21 50.8 0)
 		(fields_autoplaced yes)
@@ -1466,7 +1466,7 @@
 			)
 		)
 	)
-	(global_label "DO3_out"
+	(global_label "D_IN3_out"
 		(shape output)
 		(at 252.73 48.26 0)
 		(fields_autoplaced yes)
@@ -1488,7 +1488,7 @@
 			)
 		)
 	)
-	(global_label "DO4_out"
+	(global_label "D_IN4_out"
 		(shape output)
 		(at 68.58 39.37 0)
 		(fields_autoplaced yes)
@@ -1510,7 +1510,7 @@
 			)
 		)
 	)
-	(global_label "DO5_out"
+	(global_label "D_IN5_out"
 		(shape output)
 		(at 80.01 85.09 0)
 		(fields_autoplaced yes)
@@ -1532,7 +1532,7 @@
 			)
 		)
 	)
-	(global_label "DO3"
+	(global_label "D_IN3"
 		(shape input)
 		(at 125.73 96.52 180)
 		(fields_autoplaced yes)
@@ -1554,7 +1554,7 @@
 			)
 		)
 	)
-	(global_label "DO4"
+	(global_label "D_IN4"
 		(shape input)
 		(at 33.02 39.37 180)
 		(fields_autoplaced yes)
@@ -1576,7 +1576,7 @@
 			)
 		)
 	)
-	(global_label "DO4_out"
+	(global_label "D_IN4_out"
 		(shape output)
 		(at 252.73 50.8 0)
 		(fields_autoplaced yes)
@@ -1598,7 +1598,7 @@
 			)
 		)
 	)
-	(global_label "DO3_out"
+	(global_label "D_IN3_out"
 		(shape output)
 		(at 161.29 96.52 0)
 		(fields_autoplaced yes)
@@ -1620,7 +1620,7 @@
 			)
 		)
 	)
-	(global_label "DO1"
+	(global_label "D_IN1"
 		(shape input)
 		(at 219.71 43.18 180)
 		(fields_autoplaced yes)
@@ -1642,7 +1642,7 @@
 			)
 		)
 	)
-	(global_label "DO2"
+	(global_label "D_IN2"
 		(shape input)
 		(at 219.71 45.72 180)
 		(fields_autoplaced yes)
@@ -1664,7 +1664,7 @@
 			)
 		)
 	)
-	(global_label "DO2_out"
+	(global_label "D_IN2_out"
 		(shape output)
 		(at 252.73 45.72 0)
 		(fields_autoplaced yes)
@@ -1686,7 +1686,7 @@
 			)
 		)
 	)
-	(global_label "DO6_out"
+	(global_label "D_IN6_out"
 		(shape output)
 		(at 252.73 55.88 0)
 		(fields_autoplaced yes)
@@ -1708,7 +1708,7 @@
 			)
 		)
 	)
-	(global_label "DO1"
+	(global_label "D_IN1"
 		(shape input)
 		(at 109.22 50.8 180)
 		(fields_autoplaced yes)
@@ -1730,7 +1730,7 @@
 			)
 		)
 	)
-	(global_label "DO6_out"
+	(global_label "D_IN6_out"
 		(shape output)
 		(at 71.12 137.16 0)
 		(fields_autoplaced yes)

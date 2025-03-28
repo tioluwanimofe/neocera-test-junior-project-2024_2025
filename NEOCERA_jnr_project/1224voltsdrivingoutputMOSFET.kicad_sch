@@ -1490,47 +1490,7 @@
 		)
 		(uuid "ec1c1b3a-7de4-4d0a-9b38-6b12c61553a6")
 	)
-	(text "IS this to be 24V?"
-		(exclude_from_sim no)
-		(at 76.708 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "03d4183c-d4ba-4526-a4f5-e06b5569eba9")
-	)
-	(text "IS this to be 24V?"
-		(exclude_from_sim no)
-		(at 229.108 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "22d50b74-6b4d-4b55-a2c2-8bbcbdbfdb04")
-	)
-	(text "IS this to be 24V?"
-		(exclude_from_sim no)
-		(at 171.958 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a4d6f5ce-9da6-4f74-a974-40f8797f6f6f")
-	)
-	(text "IS this to be 24V?"
-		(exclude_from_sim no)
-		(at 126.238 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dcda2545-edf1-4dac-811b-a05d575658c6")
-	)
-	(global_label "hvout2_signal"
+	(global_label "hvout2_mboard"
 		(shape output)
 		(at 130.81 96.52 0)
 		(fields_autoplaced yes)
@@ -1552,7 +1512,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol3_in"
+	(global_label "hvcontrol3_microcontroller"
 		(shape input)
 		(at 148.59 110.49 180)
 		(fields_autoplaced yes)
@@ -1574,7 +1534,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol4_in"
+	(global_label "hvcontrol4_microcontroller"
 		(shape input)
 		(at 205.74 110.49 180)
 		(fields_autoplaced yes)
@@ -1596,7 +1556,7 @@
 			)
 		)
 	)
-	(global_label "hvout4_signal"
+	(global_label "hvout4_mboard"
 		(shape output)
 		(at 233.68 96.52 0)
 		(fields_autoplaced yes)
@@ -1618,7 +1578,7 @@
 			)
 		)
 	)
-	(global_label "hvout3_signal"
+	(global_label "hvout3_mboard"
 		(shape output)
 		(at 176.53 96.52 0)
 		(fields_autoplaced yes)
@@ -1640,7 +1600,7 @@
 			)
 		)
 	)
-	(global_label "hvout1_signal"
+	(global_label "hvout1_mboard"
 		(shape output)
 		(at 81.28 96.52 0)
 		(fields_autoplaced yes)
@@ -1652,7 +1612,7 @@
 		)
 		(uuid "5268fc5a-9653-4ac7-9075-9bd64dde2992")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.615 96.52 0)
+			(at 94.6063 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1622,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol2_in"
+	(global_label "hvcontrol2_microcontroller"
 		(shape input)
 		(at 102.87 110.49 180)
 		(fields_autoplaced yes)
@@ -1684,7 +1644,7 @@
 			)
 		)
 	)
-	(global_label "hvcontrol1_in"
+	(global_label "hvcontrol1_microcontroller"
 		(shape input)
 		(at 53.34 110.49 180)
 		(fields_autoplaced yes)
@@ -1696,7 +1656,7 @@
 		)
 		(uuid "79a45640-18c0-4f01-941a-a610344979f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.5946 110.49 0)
+			(at 24.7738 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

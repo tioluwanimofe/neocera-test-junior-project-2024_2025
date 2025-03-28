@@ -2500,16 +2500,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 144.78) (xy 97.79 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12e769fe-081c-4354-9b84-fba941a1550d")
-	)
-	(wire
-		(pts
 			(xy 160.02 40.64) (xy 160.02 45.72)
 		)
 		(stroke
@@ -2527,16 +2517,6 @@
 			(type default)
 		)
 		(uuid "2bd20cd6-f8fb-466f-a0bc-dbfacbcd04c2")
-	)
-	(wire
-		(pts
-			(xy 72.39 90.17) (xy 72.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f002115-9aa7-4ee7-8d2d-665fff42b285")
 	)
 	(wire
 		(pts
@@ -2590,16 +2570,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4039ee0c-fc53-42be-acd6-be948bceb9ea")
-	)
-	(wire
-		(pts
 			(xy 243.84 88.9) (xy 243.84 90.17)
 		)
 		(stroke
@@ -2637,16 +2607,6 @@
 			(type default)
 		)
 		(uuid "57b7c18a-519b-429f-812e-ddcce4833c14")
-	)
-	(wire
-		(pts
-			(xy 83.82 144.78) (xy 90.17 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a870819-df31-4ab7-b414-e7ab45053055")
 	)
 	(wire
 		(pts
@@ -2737,16 +2697,6 @@
 			(type default)
 		)
 		(uuid "8f01ac39-9eb0-4cdd-b000-b74320b941b7")
-	)
-	(wire
-		(pts
-			(xy 71.12 144.78) (xy 71.12 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f60555e-d67f-4322-b2cf-a3390cd82d19")
 	)
 	(wire
 		(pts
@@ -2880,16 +2830,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 144.78) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f61ced-775a-4052-a5a6-2612492e9252")
-	)
-	(wire
-		(pts
 			(xy 137.16 132.08) (xy 134.62 132.08)
 		)
 		(stroke
@@ -2960,16 +2900,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 90.17) (xy 71.12 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f329e4cd-2156-4fc9-869a-ff6fbc73cd31")
-	)
-	(wire
-		(pts
 			(xy 201.93 97.79) (xy 187.96 97.79)
 		)
 		(stroke
@@ -2997,6 +2927,622 @@
 			(type default)
 		)
 		(uuid "fd6c726e-ee3c-4b38-957c-f116151f45f0")
+	)
+	(global_label "Opto anode_4"
+		(shape input)
+		(at 50.8 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0862f428-b567-4bb9-a62e-0d87acd3a32d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.6313 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFET_micro4"
+		(shape input)
+		(at 50.8 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "091d0388-af34-4c0e-b541-26eac0dd0e78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1949 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFET_micro1"
+		(shape input)
+		(at 50.8 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "106f1cfc-78de-40c1-801b-cb2b34331ec4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1949 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_IN2"
+		(shape input)
+		(at 50.8 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11a8e67b-c591-480c-97cc-7ddd826c14d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFET_micro2"
+		(shape input)
+		(at 50.8 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13ee33c7-d9ce-4eb5-9d34-0b13f725ba0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1949 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Opto common3"
+		(shape input)
+		(at 50.8 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21a4a993-aa3d-4959-b411-a13bfa160080")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.3613 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Opto common2"
+		(shape input)
+		(at 50.8 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4039293a-90e1-4dbe-9a28-a22fde0c68b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.3613 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFET_micro3"
+		(shape input)
+		(at 50.8 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5729e04f-f791-4d6d-be6b-7d4c881059b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1949 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_IN4"
+		(shape input)
+		(at 50.8 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64530125-e170-4f0e-9db9-f12d2d2066e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Opto anode_2"
+		(shape input)
+		(at 50.8 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82817325-8e1a-45d6-a8ba-ea9089774b33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.6313 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS232_in2_Signal"
+		(shape input)
+		(at 50.8 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82d1bb02-ec72-46af-a948-6b053aec77b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.8818 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_IN6"
+		(shape input)
+		(at 50.8 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8848c5b8-321f-46bf-b84a-073e5b255a70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "hvcontrol3_microcontroller"
+		(shape input)
+		(at 50.8 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8afa12b8-af79-41b4-badb-d0a2ec03eb81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.0546 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_IN1"
+		(shape input)
+		(at 50.8 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8da782c5-1579-47c4-ac30-9b340b1a3dcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS232_in3_Signal"
+		(shape input)
+		(at 50.8 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "902a3a71-142f-443c-8b5a-6809f27d358e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.8818 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Opto common1"
+		(shape input)
+		(at 50.8 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fb43f78-59fc-4b3a-8889-0508db7e4528")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.3613 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_IN3"
+		(shape input)
+		(at 50.8 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a81ee643-4905-4d85-a393-bd3ebc8a4481")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "hvcontrol4_microcontroller"
+		(shape input)
+		(at 50.8 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1041a03-af59-4da0-a341-3b5681fa57be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.0546 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Opto anode_3"
+		(shape input)
+		(at 50.8 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf273ce5-2cdf-46fb-99e3-58d9648d419a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.6313 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS232_in4_Signal"
+		(shape input)
+		(at 50.8 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2c4ad8d-ce74-4e45-ad9f-86ce72204af3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.8818 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Opto anode_1"
+		(shape input)
+		(at 50.8 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2e111c4-ee1c-47e0-94e4-735b7035a586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.6313 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "hvcontrol2_microcontroller"
+		(shape input)
+		(at 50.8 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8ec7524-7bf0-41fe-bf2d-c84ad51db25b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.0546 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Opto common4"
+		(shape input)
+		(at 50.8 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbc128e4-5c6f-444f-a4ac-20697aa931f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.3613 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS232_in1_Signal"
+		(shape input)
+		(at 50.8 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d078c267-d1d7-4c00-b4eb-e5ca72992f0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.8818 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_IN5"
+		(shape input)
+		(at 50.8 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3409489-8159-4e47-8dc4-d028e2c72dd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0048 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFET_micro6"
+		(shape input)
+		(at 50.8 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dac8c320-5bd2-44a4-887f-4ab5784962c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1949 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFET_micro5"
+		(shape input)
+		(at 50.8 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9250495-d0e8-43e1-862a-0da90c841fd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1949 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "hvcontrol1_microcontroller"
+		(shape input)
+		(at 50.8 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7e3d537-ac0d-4527-b291-e61c9e401424")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.0546 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3195,72 +3741,6 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 97.79 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d516bd5-93b2-4719-b188-662e1a30a236")
-		(property "Reference" "#PWR0105"
-			(at 97.79 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9711730-0073-4cab-bf6e-a5303ccf8162")
-		)
-		(instances
-			(project ""
-				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3591,6 +4071,72 @@
 			(project ""
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f18486a-7d78-44d0-a9a3-b1adb99a385f")
+		(property "Reference" "#PWR0105"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "683df546-1538-4271-9aa4-039f65eb9ea9")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -4214,6 +4760,141 @@
 			(project "NEOCERA_jnr_project"
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55b9cd25-22b3-4ad9-a883-91e31b3e969b")
+		(property "Reference" "R25"
+			(at 85.09 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 85.09 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 85.09 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "773530d2-85ec-46c0-a2ab-d96fda934ebe")
+		)
+		(pin "1"
+			(uuid "6d712d72-efd1-4e53-94a7-a4f142a48215")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 77.47 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57b8abc4-49e3-4930-8c92-65b35b57872a")
+		(property "Reference" "D3"
+			(at 75.8825 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 75.8825 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f01c0d3-9c18-4bbc-95d3-0689f5839992")
+		)
+		(pin "2"
+			(uuid "78fb997c-c114-40a6-bcd6-d53cc37b18b7")
+		)
+		(instances
+			(project "NEOCERA_jnr_project"
+				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4964,74 +5645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 80.01 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c44f45b1-957c-45ce-a643-7831ca2ec71f")
-		(property "Reference" "R25"
-			(at 80.01 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 80.01 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 80.01 146.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68e02b1d-131e-40c6-bc1b-1514aba8171d")
-		)
-		(pin "1"
-			(uuid "2a6986e8-6582-4e2e-82a8-bd0b8baaff88")
-		)
-		(instances
-			(project ""
-				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 119.38 43.18 90)
 		(unit 1)
@@ -5494,73 +6107,6 @@
 			(project ""
 				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 93.98 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f86fdce1-4842-4db4-94c1-f67a54d3e3a2")
-		(property "Reference" "D4"
-			(at 95.5675 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 95.5675 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf1744e1-0e7c-41b6-8138-38b4a7c5a58c")
-		)
-		(pin "2"
-			(uuid "a9b0caed-404a-4e04-a086-014a88b57e42")
-		)
-		(instances
-			(project ""
-				(path "/a8746ab6-0163-416c-99f9-0036ded73fc6/31b6b5cc-d086-44ba-8cec-c6130e1adfec"
-					(reference "D4")
 					(unit 1)
 				)
 			)

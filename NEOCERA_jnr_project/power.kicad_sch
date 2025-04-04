@@ -5272,6 +5272,7 @@
 	(hierarchical_label "RX1"
 		(shape output)
 		(at 234.95 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5283,6 +5284,7 @@
 	(hierarchical_label "RB1"
 		(shape output)
 		(at 251.46 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
